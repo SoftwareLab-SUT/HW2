@@ -1,9 +1,9 @@
-songs = {'Sad': 'Anchor by Novo Amor',
+songs = {'Sad': 'When the Party Is Over by Billie Eilish',
         'Happy': 'Happy by Pharrel Williams',
         'Tired': 'Slow Up by Jacob Banks',
         'Stressed': 'In My Blood by Shawn Mendes',
         'Angry': 'Roar by Katy Perry',
-        'In Love': 'All of Me by John Legend',
+        'In Love': 'Love Story by Taylor Swift',
         'Lazy': 'The Lazy Song by Bruno Mars'}
 
 while True:
