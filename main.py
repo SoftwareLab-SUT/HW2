@@ -180,6 +180,7 @@ while True:
     print("Your zodiac sign is: ", sign)
     print()
     print(zodiac[sign])
+    break
 
 while True:
     print("What is your mood today?")
