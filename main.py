@@ -4,7 +4,9 @@ hello_world_translations = {'Arabic': 'مرحبا بالعالم!',
                             'French': 'Bonjour monde!',
                             'German': 'Hallo Welt!',
                             'Persian': 'سلام دنیا!',
-                            'Russian': 'Привет мир!'}
+                            'Russian': 'Привет мир!',
+                            'Spanish': 'Hola!',
+                            'Latin': 'Salve!'}
 
 while True:
     print("What language do you know?")
@@ -15,7 +17,9 @@ while True:
           "- French\n"
           "- German\n"
           "- Persian\n"
-          "- Russian")
+          "- Russian\n"
+          "- Spanish\n"
+          "- Latin\n")
     language = input()
     if language in hello_world_translations.keys():
         print(hello_world_translations[language])
