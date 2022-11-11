@@ -1,10 +1,10 @@
-songs = {'Sad': 'When the Party Is Over by Billie Eilish',
-        'Happy': 'Happy by Pharrel Williams',
-        'Tired': 'Slow Up by Jacob Banks',
-        'Stressed': 'In My Blood by Shawn Mendes',
-        'Angry': 'Roar by Katy Perry',
+songs = {'Sad': 'モラトリアム by Moratorium',
+        'Happy': 'Into the I-LAND by IU',
+        'Tired': 'Pour aller ou? by Lea Paci',
+        'Stressed': 'NAKKA by IU',
+        'Angry': 'La Di Die by Nessa Barrett',
         'In Love': 'Love Story by Taylor Swift',
-        'Lazy': 'The Lazy Song by Bruno Mars'}
+        'Lazy': 'Ain\'t your mama by Jennifer Lopez'}
 
 while True:
     print("What is your mood today?")
