@@ -11,11 +11,17 @@
 
 شاخه‌ی main ما protected است و برای اینکه بتوان تغییرات شاخه‌های دیگر را به آن اضافه کرد، باید pull request فرستاد که در شکل زیر هم می‌بینید:
 
-دو بار درطول پروژه ما conflict خوردیم که یک بار مربوط به زمانی بود که در شاخه‌ی Song-Recommendation هردو نفر تلاش کردیم آهنگ‌های موجود را عوض کنیم که بعد از اجرای دستور git push توسط نفر دوم، نتیجه‌ی زیر داده‌شد و با مرج کردن دو کد، مشکل برطرف شد: 
+<img width="1205" alt="Screen Shot 1401-08-20 at 21 43 49" src="https://user-images.githubusercontent.com/45355352/201402983-dd0c6f8d-57a3-4b20-afd3-60bd70b27812.png">
+
+بعد از انجام یکی از pull requestها متوجه شدیم که اشتباهی رخ داده و آن را revert کردیم. در نهایت هر سه شاخه رو شاخه‌ی main مرج شدند.
+
+دو بار درطول پروژه ما conflict خوردیم که یک بار مربوط به زمانی بود که در شاخه‌ی Song-Recommendation هردو نفر تلاش کردیم آهنگ‌های موجود را عوض کنیم که بعد از اجرای دستور git push توسط نفر دوم، نتیجه‌ی زیر داده‌شد و با مرج کردن دو کد، مشکل برطرف شد:
+(https://github.com/SoftwareLab-SUT/HW2/commit/5c4a742ce2d622c52db5360d5f7f1485bd910625) 
 
 <img width="1264" alt="Screen Shot 1401-08-20 at 19 26 15" src="https://user-images.githubusercontent.com/45355352/201385111-b6ca544f-f50b-48c5-b85b-ab0b52b491c0.png">
 
 مورد دوم در شاخه‌ی main رخ داد. هر دو نفر تعدادی زبان را برای ساپورت بیشتر برنامه اضافه کردند اما نفر دوم پیش از کامیت خود پروژه را آپدیت نکرد و پس از اجرای دستور git push  به مشکل زیر برخورد:
+(https://github.com/SoftwareLab-SUT/HW2/commit/d7ca775621248e7ecb06a0de913b676117fb1955)
 
 ![photo_6014583154217695803_x](https://user-images.githubusercontent.com/56794518/201386456-fe6fd30a-727e-4bdc-8d93-a7c68286d538.jpg)
 
