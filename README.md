@@ -15,6 +15,20 @@
 
 <img width="1264" alt="Screen Shot 1401-08-20 at 19 26 15" src="https://user-images.githubusercontent.com/45355352/201385111-b6ca544f-f50b-48c5-b85b-ab0b52b491c0.png">
 
+مورد دوم در شاخه‌ی main رخ داد. هر دو نفر تعدادی زبان را برای ساپورت بیشتر برنامه اضافه کردند اما نفر دوم پیش از کامیت خود پروژه را آپدیت نکرد و پس از اجرای دستور git push  به مشکل زیر برخورد:
+
+![photo_6014583154217695803_x](https://user-images.githubusercontent.com/56794518/201386456-fe6fd30a-727e-4bdc-8d93-a7c68286d538.jpg)
+
+پس از تلاش برای pull گرفتن از پروژه با خطای کانفلیکت زیر مواجه شد:
+
+![photo_6014583154217695806_x](https://user-images.githubusercontent.com/56794518/201386757-2498fa46-ec3f-4ca2-ad7f-91222c0cd2b6.jpg)
+
+پس از مرج کردن قسمت‌های مورد‌ دار پروژه مانند تصاویر زیر مشکل حل شد.
+
+![photo_6014583154217695807_y](https://user-images.githubusercontent.com/56794518/201387105-fe0e65d5-23b1-477f-856f-cb52a0cf1f5d.jpg)
+
+![photo_6014583154217695808_x](https://user-images.githubusercontent.com/56794518/201387199-e98d5c84-46ac-4291-b1a1-0e123154fcbc.jpg)
+
 
 **پاسخ سوالات دستورکار** 
 
