@@ -1,34 +1,25 @@
-hello_world_translations = {'Arabic': 'مرحبا بالعالم!',
-                            'Chinese': '你好世界！',
-                            'English': 'Hello World!',
-                            'French': 'Bonjour monde!',
-                            'German': 'Hallo Welt!',
-                            'Persian': 'سلام دنیا!',
-                            'Russian': 'Привет мир!'}
+songs = {'Sad': 'Anchor by Novo Amor',
+        'Happy': 'Happy by Pharrel Williams',
+        'Tired': 'Slow Up by Jacob Banks',
+        'Stressed': 'In My Blood by Shawn Mendes',
+        'Angry': 'Roar by Katy Perry',
+        'In Love': 'All of Me by John Legend',
+        'Lazy': 'The Lazy Song by Bruno Mars'}
 
 while True:
-    print("What language do you know?")
+    print("What is your mood today?")
     print("Option:\n"
-          "- Arabic \n"
-          "- Chinese\n"
-          "- English\n"
-          "- French\n"
-          "- German\n"
-          "- Persian\n"
-          "- Russian")
-    language = input()
-    if language in hello_world_translations.keys():
-        print(hello_world_translations[language])
+          "- Sad \n"
+          "- Happy\n"
+          "- Tired\n"
+          "- Stressed\n"
+          "- Angry\n"
+          "- In Love\n"
+          "- Lazy")
+    mood = input()
+    if mood in songs.keys():
+        print("This is the song we recommend you listen to:")
+        print(songs[mood])
         break
     else:
-        print("We don't support this languange yet\n"
-              "\n"
-              "　　　　　🌸＞＿＿ フ\n"
-              "　　　　　| 　_　 _ l\n"
-              "　 　　　／` ミ＿xノ\n"
-              "　　 　 /　　　 　 |\n"
-              "　　　 /　 ヽ　　 ﾉ\n"
-              "　 　 │　　|　|　|\n"
-              "　／￣|　　 |　|　|\n"
-              "　| (￣ヽ＿_ヽ_)__)\n"
-              "　＼二つ")
+        print("We don't support this mood yet\n")
